@@ -1,0 +1,40 @@
+#main {
+  background-color: #EEEEEE;
+  display: block;
+  max-height: max-content;
+  max-width: max-content;
+}
+#title {
+  text-align: center;
+}
+
+#img-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+  margin: 10px 15px ;
+  padding: 20px 100px;
+}
+#image {
+  width: 100%;
+  margin: auto;
+}
+#tribute-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+
+}
+#tribute-info > ul {
+  padding: 0px 25%;
+
+}
+ul > li {
+  margin-top: 5px;
+}
+blockquote{  
+  padding:2px 35%;
+  font-style: italic;
+}
